@@ -1,0 +1,313 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+    <line>
+      <![CDATA[Sleeping ... zZz 4<br>]]>
+    </line>
+    <line>
+      <![CDATA[[[ChromeDriver: chrome on windows (6c9aef502b842c65965a2da5e2a0f60d)] -> xpath: //a[contains(text(), 'New')]]<---------> is Enable<br>]]>
+    </line>
+    <line>
+      <![CDATA[[[ChromeDriver: chrome on windows (6c9aef502b842c65965a2da5e2a0f60d)] -> xpath: //a[contains(text(), 'New')]] ---> Actual text : New User Registration. Expected text : New User Registration<br>]]>
+    </line>
+    <line>
+      <![CDATA[Proxy element for: DefaultElementLocator 'By.xpath: //a[contains(text(), 'New')]'<---------> has been clicked<br>]]>
+    </line>
+    <line>
+      <![CDATA[Sleeping ... zZz 5<br>]]>
+    </line>
+    <line>
+      <![CDATA[Current URL is : https://portal.cms.gov/portal/newuserregistration<br>]]>
+    </line>
+    <line>
+      <![CDATA[Actual Title is : CMS Enterprise Portal - New User Registration ---> And Expected Title is :CMS Enterprise Portal - New User Registration<br>]]>
+    </line>
+    <line>
+      <![CDATA[[[ChromeDriver: chrome on windows (6c9aef502b842c65965a2da5e2a0f60d)] -> xpath: //p[contains(text(), ' Step #')]] ---> Actual Header : Step #1: Select Your Application. Expected Header : Step #1: Select Your Application<br>]]>
+    </line>
+    <line>
+      <![CDATA[[[ChromeDriver: chrome on windows (6c9aef502b842c65965a2da5e2a0f60d)] -> xpath: //p[contains(text(), ' Step 1 of 3')]] ---> Actual Sub Header : Step 1 of 3 - Select your application from the dropdown. You will then need to agree to the terms & conditions.. Expected SubHeader : Step 1 of 3 - Select your application from the dropdown. You will then need to agree to the terms & conditions.<br>]]>
+    </line>
+    <line>
+      <![CDATA[[[ChromeDriver: chrome on windows (6c9aef502b842c65965a2da5e2a0f60d)] -> xpath: //div[@class='ng-input']]<---------> has been clicked<br>]]>
+    </line>
+    <line>
+      <![CDATA[Sleeping ... zZz 3<br>]]>
+    </line>
+    <line>
+      <![CDATA[BCRS Web <-----> has been put into <-----> Proxy element for: DefaultElementLocator 'By.id: textSearch' and then cliked by Enter Key<br>]]>
+    </line>
+    <line>
+      <![CDATA[Sleeping ... zZz 3<br>]]>
+    </line>
+    <line>
+      <![CDATA[[[ChromeDriver: chrome on windows (6c9aef502b842c65965a2da5e2a0f60d)] -> id: cms-tos-reg]<---------> has been clicked<br>]]>
+    </line>
+    <line>
+      <![CDATA[Sleeping ... zZz 3<br>]]>
+    </line>
+    <line>
+      <![CDATA[[[ChromeDriver: chrome on windows (6c9aef502b842c65965a2da5e2a0f60d)] -> name: termsAndCondNext]<---------> is Enable<br>]]>
+    </line>
+    <line>
+      <![CDATA[[[ChromeDriver: chrome on windows (6c9aef502b842c65965a2da5e2a0f60d)] -> name: termsAndCondNext] ---> Actual text : Next. Expected text : Next<br>]]>
+    </line>
+    <line>
+      <![CDATA[[[ChromeDriver: chrome on windows (6c9aef502b842c65965a2da5e2a0f60d)] -> name: termsAndCondNext]<---------> has been clicked<br>]]>
+    </line>
+    <line>
+      <![CDATA[Sleeping ... zZz 5<br>]]>
+    </line>
+    <line>
+      <![CDATA[Current URL is : https://portal.cms.gov/portal/newuserregistration<br>]]>
+    </line>
+    <line>
+      <![CDATA[Actual Title is : CMS Enterprise Portal - New User Registration ---> And Expected Title is :CMS Enterprise Portal - New User Registration<br>]]>
+    </line>
+    <line>
+      <![CDATA[[[ChromeDriver: chrome on windows (6c9aef502b842c65965a2da5e2a0f60d)] -> id: cms-register-information] ---> Actual Header : Step #2: Register Your Information. Expected Header : Step #2: Register Your Information<br>]]>
+    </line>
+    <line>
+      <![CDATA[[[ChromeDriver: chrome on windows (6c9aef502b842c65965a2da5e2a0f60d)] -> xpath: //p[contains(text(), ' Step 2 of 3')]] ---> Actual Sub Header : Step 2 of 3 - Please enter your personal and contact information.. Expected SubHeader : Step 2 of 3 - Please enter your personal and contact information.<br>]]>
+    </line>
+    <line>
+      <![CDATA[Mohammad <-----> has been put into <-----> [[ChromeDriver: chrome on windows (6c9aef502b842c65965a2da5e2a0f60d)] -> id: cms-newuser-firstName]<br>]]>
+    </line>
+    <line>
+      <![CDATA[Tofael Kabir <-----> has been put into <-----> [[ChromeDriver: chrome on windows (6c9aef502b842c65965a2da5e2a0f60d)] -> id: cms-newuser-middleName]<br>]]>
+    </line>
+    <line>
+      <![CDATA[Sharkar <-----> has been put into <-----> [[ChromeDriver: chrome on windows (6c9aef502b842c65965a2da5e2a0f60d)] -> id: cms-newuser-lastName]<br>]]>
+    </line>
+    <line>
+      <![CDATA[Sleeping ... zZz 5<br>]]>
+    </line>
+    <line>
+      <![CDATA[SR has been selected from the dropdown of ---> [[ChromeDriver: chrome on windows (6c9aef502b842c65965a2da5e2a0f60d)] -> id: cms-newuser-nameSuffix]<br>]]>
+    </line>
+    <line>
+      <![CDATA[December has been selected from the dropdown of ---> [[ChromeDriver: chrome on windows (6c9aef502b842c65965a2da5e2a0f60d)] -> id: cms-newuser-birthMonth]<br>]]>
+    </line>
+    <line>
+      <![CDATA[31 has been selected from the dropdown of ---> [[ChromeDriver: chrome on windows (6c9aef502b842c65965a2da5e2a0f60d)] -> id: cms-newuser-birthDate]<br>]]>
+    </line>
+    <line>
+      <![CDATA[1990 has been selected from the dropdown of ---> [[ChromeDriver: chrome on windows (6c9aef502b842c65965a2da5e2a0f60d)] -> id: cms-newuser-birthYear]<br>]]>
+    </line>
+    <line>
+      <![CDATA[Sleeping ... zZz 5<br>]]>
+    </line>
+    <line>
+      <![CDATA[[[ChromeDriver: chrome on windows (6c9aef502b842c65965a2da5e2a0f60d)] -> xpath: //label[@class='check-radio']//parent::li[@class='cms-radio-item2']]<---------> has been clicked<br>]]>
+    </line>
+    <line>
+      <![CDATA[Sleeping ... zZz 5<br>]]>
+    </line>
+    <line>
+      <![CDATA[[[ChromeDriver: chrome on windows (6c9aef502b842c65965a2da5e2a0f60d)] -> xpath: //label[@class='check-radio']//parent::li[@class='cms-radio-item']]<---------> has been clicked<br>]]>
+    </line>
+    <line>
+      <![CDATA[Javascript Executor executing to view ...arguments[0].scrollIntoView(true); on the element of ---> [[ChromeDriver: chrome on windows (6c9aef502b842c65965a2da5e2a0f60d)] -> id: cms-newuser-homeAddressLine1]<br>]]>
+    </line>
+    <line>
+      <![CDATA[61E 97th St <-----> has been put into <-----> [[ChromeDriver: chrome on windows (6c9aef502b842c65965a2da5e2a0f60d)] -> id: cms-newuser-homeAddressLine1]<br>]]>
+    </line>
+    <line>
+      <![CDATA[Apt 4A <-----> has been put into <-----> [[ChromeDriver: chrome on windows (6c9aef502b842c65965a2da5e2a0f60d)] -> id: cms-newuser-usAddress2]<br>]]>
+    </line>
+    <line>
+      <![CDATA[New York <-----> has been put into <-----> [[ChromeDriver: chrome on windows (6c9aef502b842c65965a2da5e2a0f60d)] -> id: cms-newuser-usCity]<br>]]>
+    </line>
+    <line>
+      <![CDATA[New York has been selected from the dropdown of ---> [[ChromeDriver: chrome on windows (6c9aef502b842c65965a2da5e2a0f60d)] -> id: cms-newuser-usState]<br>]]>
+    </line>
+    <line>
+      <![CDATA[10029 <-----> has been put into <-----> [[ChromeDriver: chrome on windows (6c9aef502b842c65965a2da5e2a0f60d)] -> name: cms-newuser-zipcode]<br>]]>
+    </line>
+    <line>
+      <![CDATA[2123 <-----> has been put into <-----> [[ChromeDriver: chrome on windows (6c9aef502b842c65965a2da5e2a0f60d)] -> id: cms-newuser-usZipcodeExt]<br>]]>
+    </line>
+    <line>
+      <![CDATA[mtks483@gmail.com <-----> has been put into <-----> [[ChromeDriver: chrome on windows (6c9aef502b842c65965a2da5e2a0f60d)] -> id: cms-newuser-usEmail]<br>]]>
+    </line>
+    <line>
+      <![CDATA[mtks483@gmail.com <-----> has been put into <-----> [[ChromeDriver: chrome on windows (6c9aef502b842c65965a2da5e2a0f60d)] -> id: cms-newuser-usConfirmEmail]<br>]]>
+    </line>
+    <line>
+      <![CDATA[9293016028 <-----> has been put into <-----> [[ChromeDriver: chrome on windows (6c9aef502b842c65965a2da5e2a0f60d)] -> id: cms-newuser-usPhoneNumber]<br>]]>
+    </line>
+    <line>
+      <![CDATA[Sleeping ... zZz 5<br>]]>
+    </line>
+    <line>
+      <![CDATA[[[ChromeDriver: chrome on windows (6c9aef502b842c65965a2da5e2a0f60d)] -> id: step2NextButton]<---------> has been clicked<br>]]>
+    </line>
+    <line>
+      <![CDATA[Sleeping ... zZz 5<br>]]>
+    </line>
+  </reporter-output>
+  <suite started-at="2023-12-11T02:22:37 EST" name="Default suite" finished-at="2023-12-11T02:24:20 EST" duration-ms="102103">
+    <groups>
+    </groups>
+    <test started-at="2023-12-11T02:22:37 EST" name="Default test" finished-at="2023-12-11T02:24:20 EST" duration-ms="102103">
+      <class name="pages.NewUserRegistrationTest">
+        <test-method is-config="true" signature="setUP()[pri:0, instance:pages.NewUserRegistrationTest@f78a47e]" started-at="2023-12-11T02:22:38 EST" name="setUP" finished-at="2023-12-11T02:22:44 EST" duration-ms="6459" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUP -->
+        <test-method signature="newUserRegistrationTest()[pri:0, instance:pages.NewUserRegistrationTest@f78a47e]" started-at="2023-12-11T02:22:44 EST" name="newUserRegistrationTest" finished-at="2023-12-11T02:24:19 EST" duration-ms="95091" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Sleeping ... zZz 4<br>]]>
+            </line>
+            <line>
+              <![CDATA[[[ChromeDriver: chrome on windows (6c9aef502b842c65965a2da5e2a0f60d)] -> xpath: //a[contains(text(), 'New')]]<---------> is Enable<br>]]>
+            </line>
+            <line>
+              <![CDATA[[[ChromeDriver: chrome on windows (6c9aef502b842c65965a2da5e2a0f60d)] -> xpath: //a[contains(text(), 'New')]] ---> Actual text : New User Registration. Expected text : New User Registration<br>]]>
+            </line>
+            <line>
+              <![CDATA[Proxy element for: DefaultElementLocator 'By.xpath: //a[contains(text(), 'New')]'<---------> has been clicked<br>]]>
+            </line>
+            <line>
+              <![CDATA[Sleeping ... zZz 5<br>]]>
+            </line>
+            <line>
+              <![CDATA[Current URL is : https://portal.cms.gov/portal/newuserregistration<br>]]>
+            </line>
+            <line>
+              <![CDATA[Actual Title is : CMS Enterprise Portal - New User Registration ---> And Expected Title is :CMS Enterprise Portal - New User Registration<br>]]>
+            </line>
+            <line>
+              <![CDATA[[[ChromeDriver: chrome on windows (6c9aef502b842c65965a2da5e2a0f60d)] -> xpath: //p[contains(text(), ' Step #')]] ---> Actual Header : Step #1: Select Your Application. Expected Header : Step #1: Select Your Application<br>]]>
+            </line>
+            <line>
+              <![CDATA[[[ChromeDriver: chrome on windows (6c9aef502b842c65965a2da5e2a0f60d)] -> xpath: //p[contains(text(), ' Step 1 of 3')]] ---> Actual Sub Header : Step 1 of 3 - Select your application from the dropdown. You will then need to agree to the terms & conditions.. Expected SubHeader : Step 1 of 3 - Select your application from the dropdown. You will then need to agree to the terms & conditions.<br>]]>
+            </line>
+            <line>
+              <![CDATA[[[ChromeDriver: chrome on windows (6c9aef502b842c65965a2da5e2a0f60d)] -> xpath: //div[@class='ng-input']]<---------> has been clicked<br>]]>
+            </line>
+            <line>
+              <![CDATA[Sleeping ... zZz 3<br>]]>
+            </line>
+            <line>
+              <![CDATA[BCRS Web <-----> has been put into <-----> Proxy element for: DefaultElementLocator 'By.id: textSearch' and then cliked by Enter Key<br>]]>
+            </line>
+            <line>
+              <![CDATA[Sleeping ... zZz 3<br>]]>
+            </line>
+            <line>
+              <![CDATA[[[ChromeDriver: chrome on windows (6c9aef502b842c65965a2da5e2a0f60d)] -> id: cms-tos-reg]<---------> has been clicked<br>]]>
+            </line>
+            <line>
+              <![CDATA[Sleeping ... zZz 3<br>]]>
+            </line>
+            <line>
+              <![CDATA[[[ChromeDriver: chrome on windows (6c9aef502b842c65965a2da5e2a0f60d)] -> name: termsAndCondNext]<---------> is Enable<br>]]>
+            </line>
+            <line>
+              <![CDATA[[[ChromeDriver: chrome on windows (6c9aef502b842c65965a2da5e2a0f60d)] -> name: termsAndCondNext] ---> Actual text : Next. Expected text : Next<br>]]>
+            </line>
+            <line>
+              <![CDATA[[[ChromeDriver: chrome on windows (6c9aef502b842c65965a2da5e2a0f60d)] -> name: termsAndCondNext]<---------> has been clicked<br>]]>
+            </line>
+            <line>
+              <![CDATA[Sleeping ... zZz 5<br>]]>
+            </line>
+            <line>
+              <![CDATA[Current URL is : https://portal.cms.gov/portal/newuserregistration<br>]]>
+            </line>
+            <line>
+              <![CDATA[Actual Title is : CMS Enterprise Portal - New User Registration ---> And Expected Title is :CMS Enterprise Portal - New User Registration<br>]]>
+            </line>
+            <line>
+              <![CDATA[[[ChromeDriver: chrome on windows (6c9aef502b842c65965a2da5e2a0f60d)] -> id: cms-register-information] ---> Actual Header : Step #2: Register Your Information. Expected Header : Step #2: Register Your Information<br>]]>
+            </line>
+            <line>
+              <![CDATA[[[ChromeDriver: chrome on windows (6c9aef502b842c65965a2da5e2a0f60d)] -> xpath: //p[contains(text(), ' Step 2 of 3')]] ---> Actual Sub Header : Step 2 of 3 - Please enter your personal and contact information.. Expected SubHeader : Step 2 of 3 - Please enter your personal and contact information.<br>]]>
+            </line>
+            <line>
+              <![CDATA[Mohammad <-----> has been put into <-----> [[ChromeDriver: chrome on windows (6c9aef502b842c65965a2da5e2a0f60d)] -> id: cms-newuser-firstName]<br>]]>
+            </line>
+            <line>
+              <![CDATA[Tofael Kabir <-----> has been put into <-----> [[ChromeDriver: chrome on windows (6c9aef502b842c65965a2da5e2a0f60d)] -> id: cms-newuser-middleName]<br>]]>
+            </line>
+            <line>
+              <![CDATA[Sharkar <-----> has been put into <-----> [[ChromeDriver: chrome on windows (6c9aef502b842c65965a2da5e2a0f60d)] -> id: cms-newuser-lastName]<br>]]>
+            </line>
+            <line>
+              <![CDATA[Sleeping ... zZz 5<br>]]>
+            </line>
+            <line>
+              <![CDATA[SR has been selected from the dropdown of ---> [[ChromeDriver: chrome on windows (6c9aef502b842c65965a2da5e2a0f60d)] -> id: cms-newuser-nameSuffix]<br>]]>
+            </line>
+            <line>
+              <![CDATA[December has been selected from the dropdown of ---> [[ChromeDriver: chrome on windows (6c9aef502b842c65965a2da5e2a0f60d)] -> id: cms-newuser-birthMonth]<br>]]>
+            </line>
+            <line>
+              <![CDATA[31 has been selected from the dropdown of ---> [[ChromeDriver: chrome on windows (6c9aef502b842c65965a2da5e2a0f60d)] -> id: cms-newuser-birthDate]<br>]]>
+            </line>
+            <line>
+              <![CDATA[1990 has been selected from the dropdown of ---> [[ChromeDriver: chrome on windows (6c9aef502b842c65965a2da5e2a0f60d)] -> id: cms-newuser-birthYear]<br>]]>
+            </line>
+            <line>
+              <![CDATA[Sleeping ... zZz 5<br>]]>
+            </line>
+            <line>
+              <![CDATA[[[ChromeDriver: chrome on windows (6c9aef502b842c65965a2da5e2a0f60d)] -> xpath: //label[@class='check-radio']//parent::li[@class='cms-radio-item2']]<---------> has been clicked<br>]]>
+            </line>
+            <line>
+              <![CDATA[Sleeping ... zZz 5<br>]]>
+            </line>
+            <line>
+              <![CDATA[[[ChromeDriver: chrome on windows (6c9aef502b842c65965a2da5e2a0f60d)] -> xpath: //label[@class='check-radio']//parent::li[@class='cms-radio-item']]<---------> has been clicked<br>]]>
+            </line>
+            <line>
+              <![CDATA[Javascript Executor executing to view ...arguments[0].scrollIntoView(true); on the element of ---> [[ChromeDriver: chrome on windows (6c9aef502b842c65965a2da5e2a0f60d)] -> id: cms-newuser-homeAddressLine1]<br>]]>
+            </line>
+            <line>
+              <![CDATA[61E 97th St <-----> has been put into <-----> [[ChromeDriver: chrome on windows (6c9aef502b842c65965a2da5e2a0f60d)] -> id: cms-newuser-homeAddressLine1]<br>]]>
+            </line>
+            <line>
+              <![CDATA[Apt 4A <-----> has been put into <-----> [[ChromeDriver: chrome on windows (6c9aef502b842c65965a2da5e2a0f60d)] -> id: cms-newuser-usAddress2]<br>]]>
+            </line>
+            <line>
+              <![CDATA[New York <-----> has been put into <-----> [[ChromeDriver: chrome on windows (6c9aef502b842c65965a2da5e2a0f60d)] -> id: cms-newuser-usCity]<br>]]>
+            </line>
+            <line>
+              <![CDATA[New York has been selected from the dropdown of ---> [[ChromeDriver: chrome on windows (6c9aef502b842c65965a2da5e2a0f60d)] -> id: cms-newuser-usState]<br>]]>
+            </line>
+            <line>
+              <![CDATA[10029 <-----> has been put into <-----> [[ChromeDriver: chrome on windows (6c9aef502b842c65965a2da5e2a0f60d)] -> name: cms-newuser-zipcode]<br>]]>
+            </line>
+            <line>
+              <![CDATA[2123 <-----> has been put into <-----> [[ChromeDriver: chrome on windows (6c9aef502b842c65965a2da5e2a0f60d)] -> id: cms-newuser-usZipcodeExt]<br>]]>
+            </line>
+            <line>
+              <![CDATA[mtks483@gmail.com <-----> has been put into <-----> [[ChromeDriver: chrome on windows (6c9aef502b842c65965a2da5e2a0f60d)] -> id: cms-newuser-usEmail]<br>]]>
+            </line>
+            <line>
+              <![CDATA[mtks483@gmail.com <-----> has been put into <-----> [[ChromeDriver: chrome on windows (6c9aef502b842c65965a2da5e2a0f60d)] -> id: cms-newuser-usConfirmEmail]<br>]]>
+            </line>
+            <line>
+              <![CDATA[9293016028 <-----> has been put into <-----> [[ChromeDriver: chrome on windows (6c9aef502b842c65965a2da5e2a0f60d)] -> id: cms-newuser-usPhoneNumber]<br>]]>
+            </line>
+            <line>
+              <![CDATA[Sleeping ... zZz 5<br>]]>
+            </line>
+            <line>
+              <![CDATA[[[ChromeDriver: chrome on windows (6c9aef502b842c65965a2da5e2a0f60d)] -> id: step2NextButton]<---------> has been clicked<br>]]>
+            </line>
+            <line>
+              <![CDATA[Sleeping ... zZz 5<br>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- newUserRegistrationTest -->
+        <test-method is-config="true" signature="tearUp()[pri:0, instance:pages.NewUserRegistrationTest@f78a47e]" started-at="2023-12-11T02:24:19 EST" name="tearUp" finished-at="2023-12-11T02:24:20 EST" duration-ms="322" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearUp -->
+      </class> <!-- pages.NewUserRegistrationTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

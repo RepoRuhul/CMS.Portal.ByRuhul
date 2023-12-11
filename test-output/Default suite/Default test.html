@@ -1,0 +1,139 @@
+<html>
+<head>
+<title>TestNG:  Default test</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>Default test</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>1/0/0</td>
+</tr><tr>
+<td>Started on:</td><td>Mon Dec 11 02:22:37 EST 2023</td>
+</tr>
+<tr><td>Total time:</td><td>102 seconds (102103 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td><b>Attribute(s)</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='pages.NewUserRegistrationTest.newUserRegistrationTest()'><b>newUserRegistrationTest</b><br>Test class: pages.NewUserRegistrationTest<br/>
+<a href="#Output-280862192" onClick='toggleBox("Output-280862192", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-280862192" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-280862192">
+Sleeping ... zZz 4<br><br/>
+[[ChromeDriver: chrome on windows (6c9aef502b842c65965a2da5e2a0f60d)] -> xpath: //a[contains(text(), 'New')]]<---------> is Enable<br><br/>
+[[ChromeDriver: chrome on windows (6c9aef502b842c65965a2da5e2a0f60d)] -> xpath: //a[contains(text(), 'New')]] ---> Actual text : New User Registration. Expected text : New User Registration<br><br/>
+Proxy element for: DefaultElementLocator 'By.xpath: //a[contains(text(), 'New')]'<---------> has been clicked<br><br/>
+Sleeping ... zZz 5<br><br/>
+Current URL is : https://portal.cms.gov/portal/newuserregistration<br><br/>
+Actual Title is : CMS Enterprise Portal - New User Registration ---> And Expected Title is :CMS Enterprise Portal - New User Registration<br><br/>
+[[ChromeDriver: chrome on windows (6c9aef502b842c65965a2da5e2a0f60d)] -> xpath: //p[contains(text(), ' Step #')]] ---> Actual Header : Step #1: Select Your Application. Expected Header : Step #1: Select Your Application<br><br/>
+[[ChromeDriver: chrome on windows (6c9aef502b842c65965a2da5e2a0f60d)] -> xpath: //p[contains(text(), ' Step 1 of 3')]] ---> Actual Sub Header : Step 1 of 3 - Select your application from the dropdown. You will then need to agree to the terms & conditions.. Expected SubHeader : Step 1 of 3 - Select your application from the dropdown. You will then need to agree to the terms & conditions.<br><br/>
+[[ChromeDriver: chrome on windows (6c9aef502b842c65965a2da5e2a0f60d)] -> xpath: //div[@class='ng-input']]<---------> has been clicked<br><br/>
+Sleeping ... zZz 3<br><br/>
+BCRS Web <-----> has been put into <-----> Proxy element for: DefaultElementLocator 'By.id: textSearch' and then cliked by Enter Key<br><br/>
+Sleeping ... zZz 3<br><br/>
+[[ChromeDriver: chrome on windows (6c9aef502b842c65965a2da5e2a0f60d)] -> id: cms-tos-reg]<---------> has been clicked<br><br/>
+Sleeping ... zZz 3<br><br/>
+[[ChromeDriver: chrome on windows (6c9aef502b842c65965a2da5e2a0f60d)] -> name: termsAndCondNext]<---------> is Enable<br><br/>
+[[ChromeDriver: chrome on windows (6c9aef502b842c65965a2da5e2a0f60d)] -> name: termsAndCondNext] ---> Actual text : Next. Expected text : Next<br><br/>
+[[ChromeDriver: chrome on windows (6c9aef502b842c65965a2da5e2a0f60d)] -> name: termsAndCondNext]<---------> has been clicked<br><br/>
+Sleeping ... zZz 5<br><br/>
+Current URL is : https://portal.cms.gov/portal/newuserregistration<br><br/>
+Actual Title is : CMS Enterprise Portal - New User Registration ---> And Expected Title is :CMS Enterprise Portal - New User Registration<br><br/>
+[[ChromeDriver: chrome on windows (6c9aef502b842c65965a2da5e2a0f60d)] -> id: cms-register-information] ---> Actual Header : Step #2: Register Your Information. Expected Header : Step #2: Register Your Information<br><br/>
+[[ChromeDriver: chrome on windows (6c9aef502b842c65965a2da5e2a0f60d)] -> xpath: //p[contains(text(), ' Step 2 of 3')]] ---> Actual Sub Header : Step 2 of 3 - Please enter your personal and contact information.. Expected SubHeader : Step 2 of 3 - Please enter your personal and contact information.<br><br/>
+Mohammad <-----> has been put into <-----> [[ChromeDriver: chrome on windows (6c9aef502b842c65965a2da5e2a0f60d)] -> id: cms-newuser-firstName]<br><br/>
+Tofael Kabir <-----> has been put into <-----> [[ChromeDriver: chrome on windows (6c9aef502b842c65965a2da5e2a0f60d)] -> id: cms-newuser-middleName]<br><br/>
+Sharkar <-----> has been put into <-----> [[ChromeDriver: chrome on windows (6c9aef502b842c65965a2da5e2a0f60d)] -> id: cms-newuser-lastName]<br><br/>
+Sleeping ... zZz 5<br><br/>
+SR has been selected from the dropdown of ---> [[ChromeDriver: chrome on windows (6c9aef502b842c65965a2da5e2a0f60d)] -> id: cms-newuser-nameSuffix]<br><br/>
+December has been selected from the dropdown of ---> [[ChromeDriver: chrome on windows (6c9aef502b842c65965a2da5e2a0f60d)] -> id: cms-newuser-birthMonth]<br><br/>
+31 has been selected from the dropdown of ---> [[ChromeDriver: chrome on windows (6c9aef502b842c65965a2da5e2a0f60d)] -> id: cms-newuser-birthDate]<br><br/>
+1990 has been selected from the dropdown of ---> [[ChromeDriver: chrome on windows (6c9aef502b842c65965a2da5e2a0f60d)] -> id: cms-newuser-birthYear]<br><br/>
+Sleeping ... zZz 5<br><br/>
+[[ChromeDriver: chrome on windows (6c9aef502b842c65965a2da5e2a0f60d)] -> xpath: //label[@class='check-radio']//parent::li[@class='cms-radio-item2']]<---------> has been clicked<br><br/>
+Sleeping ... zZz 5<br><br/>
+[[ChromeDriver: chrome on windows (6c9aef502b842c65965a2da5e2a0f60d)] -> xpath: //label[@class='check-radio']//parent::li[@class='cms-radio-item']]<---------> has been clicked<br><br/>
+Javascript Executor executing to view ...arguments[0].scrollIntoView(true); on the element of ---> [[ChromeDriver: chrome on windows (6c9aef502b842c65965a2da5e2a0f60d)] -> id: cms-newuser-homeAddressLine1]<br><br/>
+61E 97th St <-----> has been put into <-----> [[ChromeDriver: chrome on windows (6c9aef502b842c65965a2da5e2a0f60d)] -> id: cms-newuser-homeAddressLine1]<br><br/>
+Apt 4A <-----> has been put into <-----> [[ChromeDriver: chrome on windows (6c9aef502b842c65965a2da5e2a0f60d)] -> id: cms-newuser-usAddress2]<br><br/>
+New York <-----> has been put into <-----> [[ChromeDriver: chrome on windows (6c9aef502b842c65965a2da5e2a0f60d)] -> id: cms-newuser-usCity]<br><br/>
+New York has been selected from the dropdown of ---> [[ChromeDriver: chrome on windows (6c9aef502b842c65965a2da5e2a0f60d)] -> id: cms-newuser-usState]<br><br/>
+10029 <-----> has been put into <-----> [[ChromeDriver: chrome on windows (6c9aef502b842c65965a2da5e2a0f60d)] -> name: cms-newuser-zipcode]<br><br/>
+2123 <-----> has been put into <-----> [[ChromeDriver: chrome on windows (6c9aef502b842c65965a2da5e2a0f60d)] -> id: cms-newuser-usZipcodeExt]<br><br/>
+mtks483@gmail.com <-----> has been put into <-----> [[ChromeDriver: chrome on windows (6c9aef502b842c65965a2da5e2a0f60d)] -> id: cms-newuser-usEmail]<br><br/>
+mtks483@gmail.com <-----> has been put into <-----> [[ChromeDriver: chrome on windows (6c9aef502b842c65965a2da5e2a0f60d)] -> id: cms-newuser-usConfirmEmail]<br><br/>
+9293016028 <-----> has been put into <-----> [[ChromeDriver: chrome on windows (6c9aef502b842c65965a2da5e2a0f60d)] -> id: cms-newuser-usPhoneNumber]<br><br/>
+Sleeping ... zZz 5<br><br/>
+[[ChromeDriver: chrome on windows (6c9aef502b842c65965a2da5e2a0f60d)] -> id: step2NextButton]<---------> has been clicked<br><br/>
+Sleeping ... zZz 5<br><br/>
+</div>
+</td>
+<td></td>
+<td>95</td>
+<td>pages.NewUserRegistrationTest@f78a47e</td></tr>
+</table><p>
+</body>
+</html>
