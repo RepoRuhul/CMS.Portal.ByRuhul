@@ -96,5 +96,12 @@ public class BaseClass {
 	public void tearUp() {
 		driver.quit();
 	}
-
+                                                      
+	
+	
+	
+	
+	
+	
+	
 }
