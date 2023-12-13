@@ -101,14 +101,14 @@ public class NewUserRegistration {
 	
 	
 	public void directingToNewUserRegistration() {
-		pause(4);
+		pause(1);
 		buttonEnabled(newUserRegistration);
 		verifyTextOfTheWebElement(newUserRegistration, "New User Registration");
 		clickElement(newUserRegistration);
 	}
 	
 	public void stepOneOfNewUserRegistration() {
-		pause(5);
+		pause(1);
 		currentUrl(driver);
 		verifyTitle(driver, "CMS Enterprise Portal - New User Registration");
 		validationOfHeader(stepOneHeader, "Step #1: Select Your Application");
@@ -119,47 +119,47 @@ public class NewUserRegistration {
 	
 	public void selectApplication() {
 		clickElement(selectYourApplication);
-		pause(3);
+		pause(1);
 		inputTextThenClickEnter(textSearch, "BCRS Web");
-		pause(3);
+		pause(1);
 		clickElement(agreeToTheTerms); // expected exception ditey hobe
-		pause(3);
+		pause(1);
 		buttonEnabled(nextButtonStep1);
 		verifyTextOfTheWebElement(nextButtonStep1, "Next");
 		clickElement(nextButtonStep1);	
 	}
 	
 	public void stepTwoOfNewUserRegistration() {
-		pause(5);
+		pause(1);
 		currentUrl(driver);
 		verifyTitle(driver, "CMS Enterprise Portal - New User Registration");
 		validationOfHeader(stepTwoHeader, "Step #2: Register Your Information");
 		validationOfSubHeader(stepTwosubHeader, "Step 2 of 3 - Please enter your personal and contact information.");
-		inputText(firstName, "Mohammad");
-		inputText(middleName, "Tofael Kabir");
-		inputText(lastName, "Sharkar");
-		pause(5);
-		selectDropdown(suffix, "SR");
+		inputText(firstName, "abul");
+		inputText(middleName, "babul");
+		inputText(lastName, "alex");
+		pause(1);
+		selectDropdown(suffix, "JR");
 		selectDropdown(birthMonth, "December");
-		selectDropdown(birthDate, "31");
-		selectDropdown(birthYear, "1990");
-		pause(5);
+		selectDropdown(birthDate, "5");
+		selectDropdown(birthYear, "1999");
+		pause(1);
 		clickElement(nonUsBasedAddress);
-		pause(5);
+		pause(1);
 		clickElement(usBasedAddress);		
 		scrollIntoViewToTheElement(driver, "arguments[0].scrollIntoView(true);", addressLine1);
-		inputText(addressLine1, "61E 97th St");
-		inputText(addressLine2, "Apt 4A");
+		inputText(addressLine1, "8712 175th st");
+		inputText(addressLine2, "Apt 4c");
 		inputText(city, "New York");
 		selectDropdown(state, "New York");
-		inputText(zipCode, "10029");
+		inputText(zipCode, "11432");
 		inputText(zipCodeExt, "2123");
-		inputText(email, "mtks483@gmail.com");
-		inputText(confirmEmail, "mtks483@gmail.com");
-		inputText(phoneNumber, "9293016028");
-		pause(5);
+		inputText(email, "abcd12345@gmail.com");
+		inputText(confirmEmail, "abcd12345@gmail.com");
+		inputText(phoneNumber, "3477745784");
+		pause(1);
 		clickElement(nextButtonStep2);
-		pause(5);	
+		pause(1);	
 	}
 	
 	

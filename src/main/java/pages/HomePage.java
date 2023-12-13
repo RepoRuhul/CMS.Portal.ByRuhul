@@ -30,13 +30,13 @@ public class HomePage {
 	WebElement loginButton;
 
 	public void inputTextInUserIdAndPasswordFieldThenClickLoginButton() {
-		inputText(userId, "August 2023 QA Bootcamp");
-		inputText(password, "Enthrall@042023");
-		pause(5);
+		inputText(userId, "mahmud hasna");
+		inputText(password, "Rumaisa1234559");
+		pause(1);
 		clickElement(checkBox);
-		pause(5);
+		pause(1);
 		clickElement(loginButton);
-		pause(5);
+		pause(1);
 	}
 
 }
